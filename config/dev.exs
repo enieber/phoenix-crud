@@ -36,7 +36,7 @@ config :phoenix, :stacktrace_depth, 20
 config :phonix_crud, PhonixCrud.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "Obone1",
-  database: "az",
+  password: "password",
+  database: "database",
   hostname: "localhost",
   pool_size: 10
